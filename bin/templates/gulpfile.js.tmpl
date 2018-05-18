@@ -36,7 +36,7 @@ gulp.task('test', function () {
 });
 
 function env(){
-  var dotenv  = require('dotenv'),
+  var dotenv  = require('dotenv').config(),
       fs = require('fs'),
       config = {},
       file,
