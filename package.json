@@ -1,6 +1,6 @@
 {
   "name": "image-resizer-dottodot",
-  "version": "0.2.5",
+  "version": "0.2.6",
   "description":
     "(experimental fork) On-the-fly image resizing and optimization using node and sharp (libvips).",
   "main": "index.js",
