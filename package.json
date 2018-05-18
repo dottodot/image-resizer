@@ -1,7 +1,8 @@
 {
-  "name": "image-resizer-wjordan",
-  "version": "0.2.3",
-  "description": "(experimental fork) On-the-fly image resizing and optimization using node and sharp (libvips).",
+  "name": "image-resizer-dottodot",
+  "version": "0.2.4",
+  "description":
+    "(experimental fork) On-the-fly image resizing and optimization using node and sharp (libvips).",
   "main": "index.js",
   "scripts": {
     "watch": "gulp watch",
@@ -21,13 +22,12 @@
     "James Nicol <james.andrew.nicol@gmail.com> (https://github.com/jimmynicol)"
   ],
   "license": "MIT",
-  "repository": "git://github.com/wjordan/image-resizer",
+  "repository": "git://github.com/dottodot/image-resizer",
   "bin": {
     "image-resizer": "./bin/image_resizer.js"
   },
   "engines": {
-    "node": ">=0.12.x",
-    "iojs": "~2"
+    "node": ">=8.x"
   },
   "dependencies": {
     "aws-sdk": "~2.82.0",
